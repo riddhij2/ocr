@@ -1,0 +1,13 @@
+<!-- upload-image.component.html -->
+<div class="upload-image-container">
+    <h2>Upload Image</h2>
+    <input type="file" (change)="onFileSelected($event)">
+    <button type="button" (click)="uploadImage()">Upload Image</button>
+    
+    <!-- Display extracted text -->
+    <div *ngIf="extractedText">
+      <h3>Extracted Text:</h3>
+      <p><strong>{{ extractedText }}</strong></p>
+    </div>
+  </div>
+  
