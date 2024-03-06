@@ -1,2 +1,0 @@
-# ocr
-image text extraction
